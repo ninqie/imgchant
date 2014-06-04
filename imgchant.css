@@ -1,0 +1,32 @@
+#lightbox{position:fixed; padding:0px; margin:0px;}
+
+#overlay{position:fixed; top:0; left:0; width:100%; height:100%; 
+background: #000 url("img/loader.gif") no-repeat scroll center center; padding:0px; margin:0px;}
+
+#alt{position:absolute;font-size: small; font-style: italic; color:#fff; 
+background-color:rgba(0,0,0,0.5);}
+
+#close-button{position: absolute; margin:5px; padding:2px; cursor: pointer; 
+background:url("img/close-button.png") no-repeat; width:25px; height: 25px;}
+
+.lightbox{cursor:pointer;}
+.gallery{height:100px; cursor: pointer; padding:5px;}
+
+#gallery{border: 1px solid #888; margin:2px; padding:2px; text-align:center; z-index:0;}
+
+#lightgallery{position:fixed; padding:0px; margin:0px; height:90%;
+img{margin:0; padding:0;}
+}
+
+.arrows{position: absolute; cursor: pointer; padding:0px; margin:0px;}
+#arrowl{background:url("img/left.png") no-repeat; width: 50px; height:50px;}
+#arrowr{background:url("img/right.png") no-repeat; width: 50px; height:50px;}
+
+.slideshow{width:940px; height:400px; 
+overflow:hidden; z-index:0; position:relative; background-color:#555;
+img{position:absolute; margin:0; padding:0; clip:rect(0px,940px,400px,0px); top:0px; left:0px;}
+}
+
+.squares{width: 65px; height: 15px; background-color:rgba(255,255,255,0.4); position:absolute; padding: 2px;}
+.square{width: 10px; height:10px; background-color:rgba(0,0,0,0.5); float:left; margin:2px;}
+.shine{background-color:rgba(155,155,155,1)}
